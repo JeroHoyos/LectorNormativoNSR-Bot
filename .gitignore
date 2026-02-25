@@ -1,0 +1,45 @@
+# =========================
+# 🔐 Variables de entorno
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# 🐍 Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# 🧠 Vector DB / Embeddings
+# =========================
+chroma/
+chroma_db/
+vectorstore/
+faiss_index/
+*.faiss
+*.pkl
+*.index
+*.db
+
+*.pdf
+*.docx
+
+.ipynb_checkpoints/
+
+*.log
+*.tmp
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+
+.vscode/
+.idea/
+
+
+.DS_Store
+Thumbs.db
